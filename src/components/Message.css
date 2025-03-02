@@ -1,0 +1,11 @@
+#h1 {
+  color: brown;
+}
+
+hr {
+    height: 5px;
+    width: 50%;
+    margin: auto;
+    background-color: red;
+    margin-bottom: 2rem;
+}

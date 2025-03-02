@@ -1,0 +1,41 @@
+.container-two {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.column-four {
+    padding: 5px;
+    padding-top: 10px ;
+    box-sizing: border-box;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+   text-align: center;
+   box-shadow: 3px 3px 4px;
+   text-decoration: none;
+}
+
+
+ h2, p { 
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+     
+     } 
+   
+
+@media (max-width: 768px) {
+    .container-two {
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
+.link {
+    color: brown;
+    text-decoration: none;
+}

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+     box-sizing: border-box; 
+}
+
+.left-column {
+    padding: 3rem;
+    width: 400px;
+  
+}
+
+.right-column {
+    background-color: #ffffff; /* Adjust the background color as needed */
+    align-items: center; margin-top: 10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+#Two-column-p {
+    padding: 1rem;
+}
+.Two-column-h2 {
+    color: brown;
+    text-align: start;
+    padding: 1rem 3rem;
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.Footer {
+    background-color: #333;
+    color: #fff;
+    height: auto;
+
+    padding-top: 2rem;
+}
+
+.footer-img {
+    height: 200px;
+    padding: 5px;
+}
+.container-three {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.footer-p {
+   color: #fff;
+}
+hr {
+    width: 100%;
+    justify-content: center;
+
+
+}
+.column {
+  padding-top: 2rem;
+}
+.footer-h6 {
+    padding-bottom: 5px;
+    padding-left: 2rem;
+}
+@media (max-width: 768px) {
+    .container-three {
+        flex-direction: column;
+        width: 100%;
+    }
+}

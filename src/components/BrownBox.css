@@ -1,0 +1,6 @@
+.BrownBox {
+    background-color: brown;
+    color: #fff;
+    height: 100px;
+    border-right: 2px solid #fff;
+}
