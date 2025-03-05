@@ -1,0 +1,10 @@
+h1.MessageCard {
+    font-weight: bolder;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+}
+p.MessageParagraph {
+    text-align: start;
+    font-family: "Poppins", Sans-serif;
+    
+}

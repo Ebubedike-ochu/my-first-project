@@ -16,16 +16,20 @@
    text-align: center;
    box-shadow: 3px 3px 4px;
    text-decoration: none;
+   
 }
 
 
- h2, p { 
+ h2.columnFour { 
     text-align: center;
     padding-top: 10px;
     text-decoration: none;
-     
+    font-family: "Poppins", Sans-serif;
+    font-weight: bolder;
      } 
-   
+   p.columnFour {
+
+   }
 
 @media (max-width: 768px) {
     .container-two {

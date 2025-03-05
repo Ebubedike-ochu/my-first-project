@@ -1,5 +1,8 @@
-#h1 {
+#message-h1 {
   color: brown;
+  font-family: "Poppins", Sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
 }
 
 hr {

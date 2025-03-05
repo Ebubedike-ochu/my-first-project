@@ -24,12 +24,20 @@ const TwoColumnLayout = () => {
     
        </div> 
            <div className='right-column '>  
-         <h1 className='Two-column-h2'>My Profile.</h1>  
+         <h1 className='Two-column-h1'>ABOUT CHIDIEBERE EBUBEDIKE OCHU </h1> 
+         <h1 className='Two-column-h2'>Writers and Manuscript.</h1> 
          <p id='Two-column-p'>My name is Chidiebere Ebubedike Ochu, I am from Enugu state, Nigeria. A graduate Accountant, A writter, Tech and Adventure enthusiants. Atque expedita similique exercitationem repellendus beatae eius eligendi. Nisi, pariatur itaque! Expedita dicta fuga ex? Perspiciatis rem nobis suscipit officiis eos porro?
             Distinctio dolor ducimus labore porro dolore illum optio eius voluptate! Odio natus iusto est, pariatur minus us, architecto cum aut neque molestiae blanditiis suscipit labore, et molestias!</p>  
-            <p>Ebubedike Ochu is a from Enugu state Nigeria.  cumque earum quisquam quas dolore laborum accusamus incidunt rerum veniam, doloremque quod repellendus, eligendi id autem? Dignissimos iste, laudantium consectetur cum, dolore, necessitatibus blanditiis rem placeat numquam enim nulla.
-            Quia perferendis, qui rem voluptates fugit nisi enim tenetur, velit tempore impedit placeat sunt aspernatur unde doloribus consequatur aut aliquam assumenda cupiditate? Error sint atque fuga minima sit, asperiores natus?
-         </p> 
+            
+         <ul> 
+          <li>Creative</li>
+          <li>Team player</li>
+          <li>Policy Making </li>
+          <li>Tech Enthusiats</li>
+          <li>Adrenaline Junkie</li>
+          <li>Well Manner</li>
+         </ul>
+         <button className='button-two'>Read More</button>
       </div>
 
     </div>

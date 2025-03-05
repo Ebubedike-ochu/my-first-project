@@ -1,6 +1,14 @@
   import './ThreeColumnLayout.css';
 //  import './TwoColumnLayout.css';
-const ThreeColumnLayout = () => {
+
+interface ThreeColumnLayoutProps {
+  content: string;
+  previewLength: number;
+  isExpanded: boolean;
+
+}
+const ThreeColumnLayout: React.FC<ThreeColumnLayoutProps> = ({content, previewLength, isExpanded })=> {
+  // console.log(previewLength)
     return (    
               <div className='content'>
                 
@@ -21,7 +29,25 @@ const ThreeColumnLayout = () => {
                 <img className='Images'  src={'/Images/ironbed.png'} alt='forest'/>
              </div>
             </div>
+            {isExpanded ?
+            <div className='container-three'> 
+            
+            <div className="column">
+               <div className='image-container'>
+                <img className='Images'  src={'/Images/nneohe.png'} alt='forest'/>
+               </div>
+                
+            </div>
+                
+             <div className="column">
+               <img className='Images'  src={'/Images/onwubiko.png'} alt='forest'/>
+             </div>
 
+             <div className="column">
+                <img className='Images'  src={'/Images/ironbed.png'} alt='forest'/>
+             </div>
+             
+            </div>:  ""}
           </div>
    
     )
