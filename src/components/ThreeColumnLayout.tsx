@@ -34,13 +34,13 @@ const ThreeColumnLayout: React.FC<ThreeColumnLayoutProps> = ({content, previewLe
             
             <div className="column">
                <div className='image-container'>
-                <img className='Images'  src={'/Images/nneohe.png'} alt='forest'/>
+                <img className='Images'  src={'/Images/nne.jpg'} alt='forest'/>
                </div>
                 
             </div>
                 
              <div className="column">
-               <img className='Images'  src={'/Images/onwubiko.png'} alt='forest'/>
+               <img className='Images'  src={'/Images/yearning.jpg'} alt='forest'/>
              </div>
 
              <div className="column">

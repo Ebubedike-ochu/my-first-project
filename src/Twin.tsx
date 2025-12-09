@@ -1,3 +1,4 @@
+import './App.css'
 import ThreeColumnLayout from "./components/ThreeColumnLayout";
 import ViewMore from "./components/ViewMore";
 import React, { useState } from 'react';
@@ -17,10 +18,10 @@ const Twin =  () => {
   const previewLength = 100;
 
     return (
-        <div>
+        <div className='content'>
          <ThreeColumnLayout content={content} previewLength={previewLength} isExpanded={isExpanded}/>
          {/* <ViewMore content={content} isExpanded={isExpanded} /> */}
-         <button onClick={toggleTwin}>
+         <button className='twin' onClick={toggleTwin}>
               {isExpanded ? "View Less" : "View More"}
       </button>
 

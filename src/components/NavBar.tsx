@@ -28,6 +28,7 @@ const NavBar = () => {
                 <span></span>
             </div>
             <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
+                
             <a href="#">
                     <i className="bi bi-house-door-fill"></i> Home</a>
                 <a href="#">
@@ -36,6 +37,7 @@ const NavBar = () => {
                 <i className="bi bi-gear-fill"></i>Settings</a>
                 <a href="#">
                 <i className="bi bi-envelope-fill"></i>Services</a>
+                
             </div>
         </nav>
         

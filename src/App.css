@@ -1,3 +1,7 @@
+body {
+  font-family: "Poppins", Sans-serif;
+  margin: 0;
+}
 
 .Images {
   width: 100%;
@@ -17,6 +21,7 @@ h1 {
  width: 80%;
  margin: auto;
  font-family: "Poppins", Sans-serif;
+ margin: 0 auto;
 }
 
 h2 {
@@ -29,6 +34,14 @@ h3 {
   font-family: "Poppins", Sans-serif;
 }
 
-* {
-  font-family: "Poppins", Sans-serif ;
+
+
+button.twin {
+  padding: 1rem 2rem;
+  width: 160px;
+  border-radius: 10px;
+  font-family: "Poppins", Sans-serif;
+  text-align: center;
+  margin:  0 auto;
 }
+

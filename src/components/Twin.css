@@ -1,0 +1,8 @@
+button.twin {
+    padding: 1rem 2rem;
+    width: 160px;
+    border-radius: 10px;
+    font-family: "Poppins", Sans-serif;
+    text-align: start;
+    margin-left: 2rem;
+}

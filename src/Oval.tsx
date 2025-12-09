@@ -6,7 +6,7 @@ interface OvalProps {
 
     const Oval: React.FC<OvalProps> = (props) => { 
     return(
-        <div>
+        <div className="content">
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
             <p>Student: {props.isStudent ? 'Yes' : 'No'}</p>

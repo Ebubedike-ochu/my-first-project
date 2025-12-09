@@ -6,7 +6,7 @@ const  MessageCard = () => {
             <hr />
             <h1 className='MessageCard'> My Portfolio </h1>
             
-        <p className='MessageParagraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aliquam quisquam velit sint nesciunt quod asperiores soluta accusantium vel ex? Quasi saepe sed expedita ipsum, neque doloremque dolores facilis nihi
+        <p className='MessageParagraph'>Ebubedike Ochu has millions  amet consectetur adipisicing elit. Eum aliquam quisquam velit sint nesciunt quod asperiores soluta accusantium vel ex? Quasi saepe sed expedita ipsum, neque doloremque dolores facilis nihi
             Lorem  dolor sit amet consectetur, adipisicing elit. Ipsa similique ipsam optio saepe enim incidunt id fugit voluptatum repellendus qui quibusdam assumenda molestias maiores commodi aut est maxime, nisi explicabo.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos odio eum nulla, voluptas, eius accusantium consequuntur velit architecto laborum nemo molestias. Est aperiam earum temporibus sint dicta, eos cumque.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia sequi. Voluptatem, deserunt. Dolorum excepturi quisquam quaerat sint veritatis velit, culpa maxime nostrum consectetur accusamus. Culpa voluptatum non maiores sit!

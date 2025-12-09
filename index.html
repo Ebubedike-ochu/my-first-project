@@ -9,7 +9,53 @@
     <title>Vite + React + TS</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div>
+      
+    <label for="price">Select Price:</label>
+    <select id="price" onchange="updateInput()">
+        <option value="">--Select--</option>
+        <option value="100">$100</option>
+        <option value="200">$200</option>
+        <option value="300">$300</option>
+    </select>
+    <br><br>
+    <label for="displayPrice">Selected Price:</label>
+    <input type="  text" id="displayPrice" readonly>
+    
+    <script>
+        function updateInput() {
+            // Get the value from the dropdown
+            const selectedPrice = document.getElementById("price").value;
+            // Set it in the input box
+            document.getElementById("displayPrice").value = selectedPrice;
+        }
+    </script>
+
+    </div>
+    <div id="root">
+
+      
+    <label for="price">Select Price:</label>
+    <select id="price" onchange="updateInput()">
+        <option value="">--Select--</option>
+        <option value="100">$100</option>
+        <option value="200">$200</option>
+        <option value="300">$300</option>
+    </select>
+    <br><br>
+    <label for="displayPrice">Selected Price:</label>
+    <input type="  text" id="displayPrice" readonly>
+    
+    <script>
+        function updateInput() {
+            // Get the value from the dropdown
+            const selectedPrice = document.getElementById("price").value;
+            // Set it in the input box
+            document.getElementById("displayPrice").value = selectedPrice;
+        }
+    </script>
+
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -9,8 +9,8 @@ const TwoColumnLayout = () => {
 
 <div className="card">
  
-   { <img  src={'/Images/fineBoy.jpg'} alt='description' /> }
-  <h1 style={{fontSize: "35px"}}>Ebubedike Ochu</h1>
+   { <img  src={'/Images/fineBoy-R.png'} id='first-image' alt='description' /> }
+  <h1 className='Two-column-h1'>Ebubedike Ochu</h1>
   <p className="title">Customer Support.</p>
   <p>Educare Technology</p>
   <div style={{margin: '24px 10px                                                                                           '}}>
@@ -19,7 +19,7 @@ const TwoColumnLayout = () => {
     <a href="#"><i className="fa fa-linkedin"></i></a>  
     <a href="#"><i className="fa fa-facebook"></i></a> 
   </div>
-  <p><button>Contact</button></p>
+  <p><button className='twin'>Contact</button></p>
 </div>
     
        </div> 
